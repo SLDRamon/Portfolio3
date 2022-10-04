@@ -424,8 +424,58 @@ section{
     padding-top: 3.5rem;
 }
 .left-contact{
-   flex: 2;
-   margin: 2rem;
+   flex: 3;
+   margin: 1rem;
+}
+.left-contact h6{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.left-contact p{
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-item p{
+    margin: .3rem 0;
+    padding: 0;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.icon i{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.contact-icon{
+    display: flex;
+    margin-top: 2rem;
+}
+.contact-icon a{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-gray5);
+    cursor: pointer;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 .4rem;
+    transition: all .4s ease-in-out;
+}
+.contact-icon a:hover {
+    background-color: var(--color-secondary);
+}
+.contact-icon a:hover i{
+    color: var(--color-gray6);
 }
 
 .right-contact{
