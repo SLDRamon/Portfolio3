@@ -126,6 +126,7 @@ section{
     font-size: 1.2rem;
     color: var(--color-gray2);
     pointer-events: none;
+
 }
 
 /*Header-content*/
@@ -528,7 +529,7 @@ input, textarea{
     
     /*Home*/
     .header{
-        min-height: 150vh;
+        min-height: 105vh;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -538,6 +539,9 @@ input, textarea{
     }
     .h-shape{
         display: none;
+    }
+    .image{
+        margin: 0 auto;
     }
     .image img{
         filter: grayscale(0);
@@ -555,9 +559,13 @@ input, textarea{
     }
     .right-header p{
         font-size: 1rem;
+        margin: 0;
     }
     .name{
         font-size: 1.5rem;
+    }
+    .btn-con{
+        margin: 0 auto;
     }
     .controlls{
         top: auto;
@@ -575,7 +583,7 @@ input, textarea{
 
     /*About*/
     .sec2{
-        min-height: 185vh;
+        min-height: 140vh;
         padding: 2rem;
     }
     
@@ -597,13 +605,16 @@ input, textarea{
         padding: 0;
         margin: 1rem 0;
     }
+    .progress-bar{
+        width: 100%
+    }
     .right-header2 span{
         font-size: 2rem;
     }
 
     /*Contacts*/
     .sec3{
-        min-height: 145vh;
+        min-height: 110vh;
         padding: 2rem .5rem;
     }
     .contact-content-con{
@@ -653,7 +664,7 @@ input, textarea{
     
     /*Home*/
     .header{
-        min-height: 185vh;
+        min-height: 120vh;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -710,7 +721,7 @@ input, textarea{
         padding: 2rem;
     }
     .sec2{
-        min-height: 180vh;
+        min-height: 135vh;
     }
     .main-title h2, h5{
         font-size: 2.5rem;
@@ -733,7 +744,7 @@ input, textarea{
 
     /*Contacts*/
     .sec3{
-        min-height: 150vh;
+        min-height: 115vh;
     }
     .contact-content-con{
         padding: 0;
