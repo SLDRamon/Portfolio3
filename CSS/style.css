@@ -528,7 +528,7 @@ input, textarea{
     
     /*Home*/
     .header{
-        min-height: 110vh;
+        min-height: 115vh;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -582,7 +582,7 @@ input, textarea{
 
     /*About*/
     .sec2{
-        min-height: 130vh;
+        min-height: 140vh;
         padding: 2rem;
     }
     
@@ -613,7 +613,7 @@ input, textarea{
 
     /*Contacts*/
     .sec3{
-        min-height: 105vh;
+        min-height: 120vh;
         padding: 2rem .5rem;
     }
     .contact-content-con{
