@@ -318,7 +318,7 @@ section{
     position: relative;
     width: 100%;
     line-height: 2.5rem;
-
+    margin: 1rem 0;
 }
 
 .texts{
@@ -515,11 +515,11 @@ input, textarea{
     /*Home Keyframes*/
     .active{
         display: block;
-        animation: scaleAnim 0s ease-in-out;
+        animation: scaleAnim 1s ease-in-out;
     }
     @keyframes scaleAnim {
         0%{
-            transform: translateY(-100%) scaleY(1)
+            transform: translateY(100%) scaleY(1)
         }
         100%{
             transform: translateY(0) scaleY(1)
@@ -599,6 +599,7 @@ input, textarea{
     .educations span{
         font-size: 1rem;
         text-align: justify;
+        justify-content: center;
     }
     .title{
         padding: 0;
