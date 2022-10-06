@@ -280,6 +280,9 @@ section{
     margin: 2rem 0;
     display:inline-flex;
 }
+.animated img{
+    margin: 0 10rem
+}
 .main-title{
     text-align: center;
 }
@@ -568,7 +571,7 @@ input, textarea{
     
     /*Home*/
     .header{
-        min-height: 115vh;
+        min-height: 120vh;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -631,7 +634,11 @@ input, textarea{
     }
     
     .resume-btn{
-        margin: 1rem 3rem;
+        margin: 1rem;
+    }
+    .animated img{
+        margin: 0;
+        width: 100%;
     }
     .education-header-content{
         display: grid;
@@ -641,7 +648,7 @@ input, textarea{
         font-size: 3rem;
     }
     .left-con h3{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-top: 2rem;
         text-align: center;
     }
@@ -784,12 +791,19 @@ input, textarea{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .resume-btn{
+        margin: 2rem 5.5rem;
+    }
+    .animated img{
+        margin: 0;
+        width: 100%;
+    }
     .education-header-content{
         display: grid;
         grid-template-columns: 1fr;
     }
     .left-con h3{
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 5rem;
         text-align: center;
     }
@@ -851,7 +865,12 @@ input, textarea{
         margin: 1rem 0
     }
     .left-con h3{
-        line-height: 2rem;
+        font-size: 2.5m;
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .education-icon{
+        text-align: center;
     }
     .educations p{
         font-size: 1.5rem;
@@ -859,7 +878,11 @@ input, textarea{
     .title{
         padding: 0;
         margin: 1rem 0;
-        text-align: right;
+        text-align: center;
+    }
+    .animated img{
+        margin: 0;
+        width: 100%;
     }
     /*Contacts*/
     .left-contact{
@@ -881,11 +904,14 @@ input, textarea{
 
     /*About*/
     .left-con h3{
-        line-height: 2rem;
+        margin: 2rem 0;
+        font-size: 2.5rem;
+    }
+    .animated img{
+        margin: 0 3rem;
     }
     .title{
         padding: 0;
         margin: 0;
-        text-align: right;
     }
 }
