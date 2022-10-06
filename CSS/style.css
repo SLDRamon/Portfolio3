@@ -321,7 +321,7 @@ section{
 }
 .education:hover{
     box-shadow: 0 0 10px var(--color-white);
-    background-color: #55198b;
+    
 }
 .education-icon img{
     width: 4rem;
