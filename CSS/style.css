@@ -283,22 +283,23 @@ section{
     font-weight: 700;
     text-align: left;
     color: var(--color-white);
-    line-height: 10rem;
+    margin-top: 2rem;
 }
-.educations p{
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: left;
-    color: var(--color-tertiary);
-    line-height: 5rem;
+.education-icon img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 0;
+}
+.education p{
+    font-size: 1rem;
 }
 .educations span{
     font-size: 1rem;
 }
 
 .title{
-    padding: 3rem;
-    margin: 0;
+    margin-top: 2rem;
     line-height: 1.4rem;
 }
 .right-header2 span{
@@ -318,7 +319,7 @@ section{
     position: relative;
     width: 100%;
     line-height: 2.5rem;
-    margin: 1rem 0;
+    margin: 5rem 0;
 }
 
 .texts{
@@ -591,11 +592,15 @@ input, textarea{
     }
     .left-header2 h3{
         font-size: 2rem;
-        line-height: 5rem;
+        margin-top: 2rem;
         text-align: center;
     }
+    .education-icon img{
+        margin-left: 7.3rem;
+    }
     .educations p{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
     }
     .educations span{
         font-size: 1rem;
@@ -604,7 +609,8 @@ input, textarea{
     }
     .title{
         padding: 0;
-        margin: 1rem 0;
+        margin-top: 4rem;
+        text-align: center;
     }
     .progress-bar{
         width: 100%
