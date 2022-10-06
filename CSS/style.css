@@ -129,7 +129,7 @@ section{
 }
 
 /*Header-content*/
-.header-content{
+.home-header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -263,6 +263,23 @@ section{
 }
 
 /*About Section*/
+.information-header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.information-title h2{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.information-title p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.resume-btn{
+    margin: 2rem 0;
+    display:inline-flex;
+}
 .main-title{
     text-align: center;
 }
@@ -274,16 +291,34 @@ section{
     color: var(--color-tertiary);
 }
 
-.left-header2{
+.education-header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left-con{
     flex-direction: column;
 }
-.left-header2 h3{
+.left-con h3{
     position: relative;
     font-size: 2.5rem;
     font-weight: 700;
     text-align: left;
     color: var(--color-white);
     margin-top: 2rem;
+}
+.educations{
+    display: grid;
+    grid-gap: 1rem;
+}
+.education{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #171c28;
+    
+}
+.education:hover{
+    box-shadow: 0 0 10px var(--color-white);
+    background-color: #55198b;
 }
 .education-icon img{
     width: 4rem;
@@ -300,21 +335,18 @@ section{
 .p3{
     font-weight: 100;
 }
-.educations span{
-    font-size: 1rem;
-}
 
 .title{
     margin-top: 2rem;
     line-height: 1.4rem;
 }
-.right-header2 span{
+.right-con span{
     font-size: 2.5rem;
     margin: 0;
     padding: 0;
     font-weight: 700;
 }
-.right-header2 h4{
+.right-con h4{
     color: var(--color-tertiary);
 }
 
@@ -541,7 +573,7 @@ input, textarea{
         padding: 0;
         overflow: hidden;
     }
-    .header-content{
+    .home-header-content{
         grid-template-columns: 1fr;
     }
     .h-shape{
@@ -593,26 +625,34 @@ input, textarea{
         min-height: 150vh;
         padding: 2rem;
     }
+    .information-header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     
+    .resume-btn{
+        margin: 1rem 3rem;
+    }
+    .education-header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .main-title h2, h5{
         font-size: 3rem;
     }
-    .left-header2 h3{
+    .left-con h3{
         font-size: 2rem;
         margin-top: 2rem;
         text-align: center;
     }
-    .education-icon img{
-        margin-left: 7.3rem;
+    .educations{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
     }
     .educations p{
         font-size: 1rem;
         text-align: center;
-    }
-    .educations span{
-        font-size: 1rem;
-        text-align: justify;
-        justify-content: center;
     }
     .title{
         padding: 0;
@@ -622,7 +662,7 @@ input, textarea{
     .progress-bar{
         width: 100%
     }
-    .right-header2 span{
+    .right-con span{
         font-size: 2.5rem;
     }
 
@@ -683,7 +723,7 @@ input, textarea{
         padding: 0;
         overflow: hidden;
     }
-    .header-content{
+    .home-header-content{
         grid-template-columns: 1fr;
     }
     .h-shape{
@@ -740,9 +780,21 @@ input, textarea{
     .main-title h2, h5{
         font-size: 2.5rem;
     }
-    .left-header2 h3{
+    .information-header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .education-header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left-con h3{
         font-size: 2rem;
         line-height: 5rem;
+        text-align: center;
+    }
+    .educations{
+        text-align: center;
     }
     .educations p{
         font-size: 1.5rem;
@@ -752,8 +804,9 @@ input, textarea{
     }
     .title{
         padding: 0;
-        margin: 1rem 0;
+        margin: 2rem 0;
         line-height: 1.4rem;
+        text-align: center;
     }
     .progress-bar{
         width: 100%
@@ -794,10 +847,10 @@ input, textarea{
     section{
         padding: 2rem;
     }
-    .left-header2{
+    .left-con2{
         margin: 1rem 0
     }
-    .left-header2 h3{
+    .left-con h3{
         line-height: 2rem;
     }
     .educations p{
@@ -827,7 +880,7 @@ input, textarea{
     }
 
     /*About*/
-    .left-header2 h3{
+    .left-con h3{
         line-height: 2rem;
     }
     .title{
