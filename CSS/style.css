@@ -28,7 +28,31 @@ body{
     --color-gray6: #12181b;
     --color-primary2: #e91e63;
     --color-primary3: #2196f3;
+    --color-primary4: #ede9df;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
+}
+
+.loader{
+    top: 0;
+    left: 0;
+    background-color: var(--color-primary4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disappear{
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 
 a{
@@ -81,7 +105,7 @@ section{
 
 @keyframes scaleAnim {
     0%{
-        transform: translateY(-100%) scaleY(1)
+        transform: translateY(-100%) scaleY(0)
     }
     100%{
         transform: translateY(0) scaleY(1)
