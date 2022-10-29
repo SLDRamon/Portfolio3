@@ -441,6 +441,10 @@ section{
     animation: JQuery 1s linear forwards;
 }
 
+.react{
+    animation: JQuery 1s linear forwards;
+}
+
 .Photoshop{
     animation: Photoshop 1s linear forwards;
 }
@@ -470,6 +474,12 @@ section{
 @keyframes JQuery {
     100% {
         width: 70%;
+    }
+}
+
+@keyframes react {
+    100% {
+        width: 50%;
     }
 }
 
